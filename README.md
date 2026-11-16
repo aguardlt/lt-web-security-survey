@@ -87,6 +87,8 @@ The `summary_*.csv` files are aggregates of `sites.csv`: by status, severity, fi
 
 Data: [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/). `build.py`, which produces the files from the scanner's internal state, is included for transparency.
 
-> AGuard.lt (2026). *Security posture of .lt websites, snapshot 2026-11-16*. https://aguard.lt
+> AGuard.lt (2026). *Security posture of .lt websites, snapshot 2026-11-16* [Data set]. Zenodo. https://doi.org/10.5281/zenodo.24282573. https://aguard.lt
+
+DOI of this snapshot: [10.5281/zenodo.24282573](https://doi.org/10.5281/zenodo.24282573). DOI that always points to the latest snapshot: [10.5281/zenodo.24282572](https://doi.org/10.5281/zenodo.24282572).
 
 Contact: info@aguard.lt
