@@ -1,0 +1,7 @@
+status,hosts,share_pct
+checked,65581,52.1
+no_dns,30659,24.3
+stopped_by_site,10014,8.0
+no_response,9608,7.6
+redirects_to_other_domain,8368,6.6
+partial,1705,1.4
