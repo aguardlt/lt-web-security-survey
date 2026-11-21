@@ -1,0 +1,6 @@
+title: Security posture of .lt websites
+description: An anonymised, row-per-host open dataset from a passive security survey of websites under the Lithuanian .lt domain, collected by AGuard.lt
+theme: jekyll-theme-primer
+url: https://aguardlt.github.io
+baseurl: /lt-web-security-survey
+exclude: [build.py, zenodo_up.py, huggingface, kaggle, stats.json]
