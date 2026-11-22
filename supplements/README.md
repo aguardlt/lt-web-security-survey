@@ -17,4 +17,6 @@ Operating systems that web servers disclose in the `Server` response header, fro
 
 Read it with care: only 2,862 hosts (3.3%) disclose a system, so this is not the operating-system share of .lt. CDNs, managed hosting and hardened servers hide it. What the table does show is the age of the servers that speak: 809 of those 2,862 hosts (401 addresses) report a release whose standard support has ended, including 177 of 180 CentOS hosts.
 
+The same numbers as a readable page, with notes on the method: https://aguard.lt/en/data/server-operating-systems
+
 Release dates: ubuntu.com/about/release-cycle, debian.org/releases and wiki.debian.org/LTS, centos.org/centos-linux-eol, learn.microsoft.com/lifecycle. Rebuild with `server_os.py <state.json>`.

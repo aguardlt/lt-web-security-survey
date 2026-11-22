@@ -83,6 +83,15 @@ The `summary_*.csv` files are aggregates of `sites.csv`: by status, severity, fi
 - Open-port data from third-party sources is not included.
 - Each host was checked once. A finding may have been fixed since.
 
+## Using the data
+
+- Tables for each question, with notes on what a number does and does not mean: [aguard.lt/en/data](https://aguard.lt/en/data) (Lithuanian: [aguard.lt/duomenys](https://aguard.lt/duomenys)).
+- Questions for coursework and theses, with the columns each one needs: [research topics](https://aguard.lt/en/data/research-topics) (Lithuanian: [temos darbams](https://aguard.lt/duomenys/temos-darbams)).
+- A starter notebook that reproduces the headline numbers: [Kaggle](https://www.kaggle.com/code/aguardlt/getting-started-security-posture-of-lt-websites), source in `kaggle/notebook/`.
+- Supplementary table of server operating systems named in the `Server` header: [`supplements/`](supplements/), as a page: [server operating systems](https://aguard.lt/en/data/server-operating-systems).
+
+If you use the dataset in a thesis, a class or a publication, write to info@aguard.lt and it will be listed here.
+
 ## Licence and citation
 
 Data: [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/). `build.py`, which produces the files from the scanner's internal state, is included for transparency.
