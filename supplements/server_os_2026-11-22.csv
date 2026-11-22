@@ -1,0 +1,81 @@
+os,server_package,release,standard_support_ended,hosts,ip_addresses
+all_inspected,,,,85487,18297
+Ubuntu,nginx/1.24.0,,,314,230
+Ubuntu,nginx/1.18.0,,,283,196
+Windows,Microsoft-IIS/10.0,,,268,193
+Ubuntu,Apache/2.4.58,,,177,101
+Ubuntu,Apache/2.4.52,,,141,99
+Debian,Apache/2.4.10,Debian 8,2020-06-30,115,17
+CentOS,Apache/2.4.6,CentOS 7,2024-06-30,107,51
+Debian,Apache/2.4.71,,,106,57
+Ubuntu,nginx/1.28.3,,,91,35
+Debian,Apache/2.4.69,,,89,41
+Ubuntu,Apache/2.4.41,Ubuntu 20.04,2025-05-31,85,61
+Ubuntu,Apache/2.4.66,,,76,24
+Ubuntu,nginx/1.14.0,Ubuntu 18.04,2023-05-31,55,35
+Ubuntu,nginx/1.10.3,Ubuntu 16.04,2021-04-02,53,26
+Debian,Apache/2.4.68,,,48,31
+Windows,Microsoft-IIS/8.5,Windows Server 2012 R2,2023-10-10,46,29
+Ubuntu,Apache/2.4.18,Ubuntu 16.04,2021-04-02,45,27
+Windows,other_or_no_version,,,40,30
+Debian,Apache/2.4.25,Debian 9,2022-07-01,38,23
+Ubuntu,Apache/2.4.29,Ubuntu 18.04,2023-05-31,34,21
+CentOS,Apache/2.2.3,CentOS 5,2017-03-31,33,7
+Unix (unspecified),other_or_no_version,,,33,21
+Debian,Apache/2.4.62,,,32,13
+Ubuntu,Apache/2.4.7,Ubuntu 14.04,2019-04-02,31,18
+Debian,Apache/2.2.22,Debian 7,2018-05-31,30,16
+Unix (unspecified),Apache/2.2.34,,,29,3
+Windows,Microsoft-IIS/7.5,Windows Server 2008 R2,2020-01-14,29,21
+Debian,Apache/2.4.67,,,27,19
+Ubuntu,other_or_no_version,,,24,20
+CentOS,Apache/2.2.15,CentOS 6,2020-11-30,23,11
+Debian,Apache/2.4.38,Debian 10,2024-06-30,15,10
+Unix (unspecified),Apache/2.4.57,,,15,3
+Unix (unspecified),Apache/2.4.71,,,15,7
+CentOS,Apache/2.4.37,CentOS 8,2021-12-31,14,6
+Ubuntu,Apache/2.4.34,Ubuntu 18.10,2019-07-18,13,1
+Windows,Apache/2.4.69,,,13,1
+AlmaLinux,Apache/2.4.37,,,13,7
+FreeBSD,other_or_no_version,,,13,10
+Ubuntu,Apache/2.4.62,,,12,4
+Ubuntu,Apache/2.2.14,Ubuntu 10.04,2013-05-09,11,3
+Debian,Apache/2.4.65,,,10,7
+FreeBSD,Apache/2.4.29,,,10,1
+Windows,Apache/2.4.58,,,9,3
+Debian,Apache/2.4.59,,,9,5
+Debian,other_or_no_version,,,9,7
+Ubuntu,nginx/1.4.6,Ubuntu 14.04,2019-04-02,8,6
+Unix (unspecified),Apache/1.3.42,,,8,1
+Red Hat,Apache/2.2.3,,,8,3
+Debian,Apache/2.4.66,,,7,6
+Ubuntu,Apache/2.2.22,Ubuntu 12.04,2017-04-28,7,5
+Unix (unspecified),Apache/2.4.54,,,7,5
+AlmaLinux,Apache/2.4.63,,,7,3
+Red Hat,other_or_no_version,,,7,6
+Debian,Apache/2.2.3,Debian 4,2010-02-15,6,2
+FreeBSD,Apache/2.4.69,,,6,3
+Ubuntu,Apache/2.4.57,,,6,3
+Rocky Linux,Apache/2.4.37,,,6,3
+FreeBSD,Apache/2.4.62,,,6,1
+AlmaLinux,Apache/2.4.62,,,6,4
+Debian,Apache/2.2.9,Debian 5,2012-02-06,6,2
+Oracle Linux,other_or_no_version,,,6,6
+Windows,Apache/2.4.54,,,5,2
+SUSE,Apache/2.4.66,,,5,1
+Amazon Linux,Apache/2.4.69,,,5,4
+Debian,Apache/2.2.16,Debian 6,2016-02-29,5,3
+Rocky Linux,Apache/2.4.63,,,5,4
+SUSE,Apache/2.2.10,,,5,1
+Unix (unspecified),Apache/2.4.69,,,5,4
+Debian,Apache/2.4.57,,,5,4
+Debian,Apache/2.4.56,,,5,4
+Ubuntu,Apache/2.4.71,,,5,1
+Debian,Apache/2.4.54,,,5,4
+Rocky Linux,other_or_no_version,,,5,4
+CentOS,other_or_no_version,,,3,3
+Fedora,other_or_no_version,,,3,2
+Amazon Linux,other_or_no_version,,,3,2
+SUSE,other_or_no_version,,,2,2
+AlmaLinux,other_or_no_version,,,1,1
+not_disclosed,,,,82625,16729
