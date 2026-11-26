@@ -1,0 +1,12 @@
+server,hosts_inspected,severity_3,severity_2,severity_3_pct,severity_2_or_3_pct
+apache,38423,1095,9221,2.8,26.8
+cloudflare,14550,281,1319,1.9,11.0
+hcdn,10894,30,3704,0.3,34.3
+nginx,6690,125,707,1.9,12.4
+litespeed,3745,45,1370,1.2,37.8
+other,2173,6,51,0.3,2.6
+not_disclosed,2120,24,86,1.1,5.2
+openresty,1729,5,11,0.3,0.9
+vercel,492,0,0,0.0,0.0
+microsoft-iis,336,1,19,0.3,6.0
+pepyaka,315,0,0,0.0,0.0

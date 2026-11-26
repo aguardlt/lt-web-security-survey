@@ -1,0 +1,10 @@
+cms,hosts_inspected,severity_3,severity_2,severity_3_pct,severity_2_or_3_pct
+not_detected,39131,221,1549,0.6,4.5
+WordPress,32929,1354,14481,4.1,48.1
+other,2956,17,195,0.6,7.2
+Hostinger Website Builder,2584,4,102,0.2,4.1
+Wix,1300,0,0,0.0,0.0
+Joomla,926,9,84,1.0,10.0
+Next.js,751,0,1,0.0,0.1
+Verskis,560,0,14,0.0,2.5
+PrestaShop,330,7,62,2.1,20.9

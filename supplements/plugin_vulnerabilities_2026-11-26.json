@@ -1,0 +1,15 @@
+{
+ "wordpress": 32929,
+ "with_plugins": 25434,
+ "with_plugin_version": 25137,
+ "closed_plugin": 2390,
+ "vulnerable_any": 21522,
+ "vulnerable_high": 17334,
+ "vulnerable_critical": 6561,
+ "vulnerable_urgent": 2102,
+ "date": "2026-11-26",
+ "vulnerability_data_at": 1795672673,
+ "plugins_seen": 5033,
+ "plugins_listed": 242,
+ "plugins_with_vulnerable_hosts": 1786
+}

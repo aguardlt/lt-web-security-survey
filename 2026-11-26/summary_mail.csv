@@ -1,0 +1,8 @@
+record,value,domains,share_pct
+spf,yes,62538,86.0
+spf,no,10186,14.0
+dmarc_policy,no_record,50415,69.3
+dmarc_policy,none,17892,24.6
+dmarc_policy,quarantine,2658,3.7
+dmarc_policy,reject,1755,2.4
+dmarc_policy,invalid,4,0.0

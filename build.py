@@ -25,7 +25,8 @@ FLAGS = [  # (column, severity, regex over the scanner's finding text)
 ]
 # finding texts that describe the check itself or are published in another column / not published at all
 IGNORED = re.compile(r"^DMARC слабый|^нет SPF|не отвечает нашему адресу|перестал отвечать|проверка остановлена|"
-                     r"^сайт недоступен|^домен не резолвится|порт базы данных")
+                     r"^сайт недоступен|^домен не резолвится|порт базы данных|"
+                     r"^главная закрыта проверкой|^главная отвечает 403|ограничивает частоту запросов|robots\.txt")
 
 def apex(d): return d[4:] if d.startswith("www.") else d
 
@@ -33,7 +34,7 @@ def status(st):
     if st.get("nodns"): return "no_dns"
     if st.get("redirect_to") and not st.get("base"): return "redirects_to_other_domain"
     if st.get("ipdown") or st.get("dead"): return "partial" if st.get("base") else "no_response"
-    if st.get("blocked"): return "stopped_by_site"
+    if st.get("blocked") or st.get("h403"): return "stopped_by_site"  # h403: the home page answered 403 or a bot challenge, nothing on it was read
     return "checked" if st.get("base") else "no_response"
 
 CMS = [("WordPress", r"^WordPress|, WordPress"), ("Joomla", r"Joomla"), ("Drupal", r"Drupal"), ("PrestaShop", r"PrestaShop"),
@@ -58,7 +59,7 @@ def branch(v):
 rows, unmapped, plug = [], collections.Counter(), collections.Counter()
 for d, st in S.items():
     if not st.get("complete"): continue
-    s = status(st); home = bool(st.get("base")) and "tech" in st
+    s = status(st); home = bool(st.get("base")) and "tech" in st and not st.get("h403")
     r = {"status": s, "checked_on": (st.get("at") or "")[:10],
          "host_type": "subdomain" if len(apex(d).split(".")) > 2 else "domain"}
     a = ASN.get(st.get("ip") or "")
